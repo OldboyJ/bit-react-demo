@@ -1,0 +1,570 @@
+/* # Reset
+================================================== */
+/*! minireset.css v0.0.3 | MIT License | github.com/jgthms/minireset.css */
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+ul {
+    list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img,
+audio,
+video {
+    height: auto;
+    max-width: 100%;
+}
+
+iframe {
+    border: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td,
+th {
+    padding: 0;
+    text-align: left;
+}
+
+/* # Generic
+================================================== */
+html {
+    background-color: white;
+    font-size: 18px;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    min-width: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+    backface-visibility: hidden;
+}
+
+main {
+    min-height: 30vh;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+main,
+hgroup,
+section {
+    display: block;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Futura, sans-serif;
+}
+
+code,
+pre {
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: auto;
+    font-family: monospace;
+}
+
+a {
+    color: #36e5d1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a strong {
+    color: currentColor;
+}
+
+a:hover {
+    color: #07c2ca;
+}
+
+code {
+    background-color: white;
+    color: #ff3860;
+    font-size: 0.875em;
+    font-weight: normal;
+    padding: 0.25em 0.5em 0.25em;
+}
+
+hr {
+    background-color: white;
+    border: none;
+    display: block;
+    height: 2px;
+    margin: 1.5rem 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    vertical-align: baseline;
+}
+
+small {
+    font-size: 0.875em;
+}
+
+span {
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+strong {
+    font-weight: 700;
+}
+
+fieldset {
+    border: none;
+}
+
+pre {
+    -webkit-overflow-scrolling: touch;
+    background-color: white;
+    color: black;
+    font-size: 0.875em;
+    overflow-x: auto;
+    padding: 1.25rem 1.5rem;
+    white-space: pre;
+    word-wrap: normal;
+}
+
+pre code {
+    background-color: transparent;
+    color: currentColor;
+    font-size: 1em;
+    padding: 0;
+}
+
+table td,
+table th {
+    text-align: left;
+    vertical-align: top;
+}
+
+table th {
+    color: #363636;
+}
+
+.table.is-bordered td,
+.table.is-bordered th {
+    border: 1px solid lightgrey;
+    padding: 5px;
+}
+
+.table.is-striped tbody tr:not(.is-selected):nth-child(even) {
+    background-color: #fafafa;
+}
+
+/* # Fonts
+================================================== */
+
+/* # Typography
+================================================== */
+body {
+    font-family: Futura, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #000000;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}
+
+h1,
+.h1 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h1,
+    .h1 {
+        font-size: 32px;
+    }
+}
+
+h1>a,
+h1>a:link,
+h1>a:visited,
+.h1>a,
+.h1>a:link,
+.h1>a:visited {
+    color: #000000;
+}
+
+h1>a:hover,
+h1>a:focus,
+.h1>a:hover,
+.h1>a:focus {
+    color: #07c2ca;
+}
+
+h2,
+.h2 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 36px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h2,
+    .h2 {
+        font-size: 28px;
+    }
+}
+
+h2>a,
+h2>a:link,
+h2>a:visited,
+.h2>a,
+.h2>a:link,
+.h2>a:visited {
+    color: #000000;
+}
+
+h2>a:hover,
+h2>a:focus,
+.h2>a:hover,
+.h2>a:focus {
+    color: #07c2ca;
+}
+
+h3,
+.h3 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h3,
+    .h3 {
+        font-size: 25px;
+    }
+}
+
+h3>a,
+h3>a:link,
+h3>a:visited,
+.h3>a,
+.h3>a:link,
+.h3>a:visited {
+    color: #000000;
+}
+
+h3>a:hover,
+h3>a:focus,
+.h3>a:hover,
+.h3>a:focus {
+    color: #07c2ca;
+}
+
+h4,
+.h4 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h4,
+    .h4 {
+        font-size: 22px;
+    }
+}
+
+h4>a,
+h4>a:link,
+h4>a:visited,
+.h4>a,
+.h4>a:link,
+.h4>a:visited {
+    color: #000000;
+}
+
+h4>a:hover,
+h4>a:focus,
+.h4>a:hover,
+.h4>a:focus {
+    color: #07c2ca;
+}
+
+h5,
+.h5 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h5,
+    .h5 {
+        font-size: 20px;
+    }
+}
+
+h5>a,
+h5>a:link,
+h5>a:visited,
+.h5>a,
+.h5>a:link,
+.h5>a:visited {
+    color: #000000;
+}
+
+h5>a:hover,
+h5>a:focus,
+.h5>a:hover,
+.h5>a:focus {
+    color: #07c2ca;
+}
+
+h6,
+.h6 {
+    font-family: Futura, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    text-transform: none;
+    line-height: 1.5;
+    color: #000000;
+    display: block;
+    letter-spacing: 1px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@media only screen and (max-width: 798px) {
+
+    h6,
+    .h6 {
+        font-size: 19px;
+    }
+}
+
+h6>a,
+h6>a:link,
+h6>a:visited,
+.h6>a,
+.h6>a:link,
+.h6>a:visited {
+    color: #000000;
+}
+
+h6>a:hover,
+h6>a:focus,
+.h6>a:hover,
+.h6>a:focus {
+    color: #07c2ca;
+}
+
+a {
+    color: #36e5d1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a strong {
+    color: currentColor;
+}
+
+a:hover {
+    color: #07c2ca;
+}
+
+sub {
+    font-size: smaller;
+}
+
+em,
+i {
+    font-style: italic;
+}
+
+strong,
+b {
+    font-weight: bold;
+}
+
+small {
+    font-size: smaller;
+}
+
+blockquote {
+    font-size: larger;
+    line-height: 1.2;
+    font-style: italic;
+}
+
+blockquote cite {
+    display: block;
+    font-size: smaller;
+}
+
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+
+body {
+    font-family: "helvetica", sans-serif;
+}
+
+.header-image {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .heading {
+        position: absolute;
+        height: auto;
+        width: 100%;
+        text-align: center;
+
+        h1,
+        span {
+            display: inline-block;
+            width: 100%;
+            color: #fff;
+            line-height: 1;
+        }
+
+        h1+span {
+            margin-bottom: 50px;
+        }
+
+        h1+.heading-cta {
+            margin-top: 50px;
+        }
+
+        .heading-cta {
+            width: 190px;
+            height: 40px;
+            margin: auto;
+            color: #fff;
+            font-size: 14px;
+            line-height: 40px;
+            background: #e98cc6;
+        }
+    }
+}

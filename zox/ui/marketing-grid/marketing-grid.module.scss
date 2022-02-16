@@ -1,0 +1,80 @@
+.marketing-grid {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.unit {
+    position: relative;
+    width: 50%;
+    height: 500px;
+    padding: 200px 0 460px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("https://assets.codepen.io/23274/give.jpg");
+
+    &:nth-child(2) {
+        background-image: url("https://assets.codepen.io/23274/zox-app.jpg");
+    }
+
+    &:nth-child(3) {
+        background-image: url("https://assets.codepen.io/23274/zox-made.jpg");
+    }
+
+    &:first-child {
+        background-image: url("https://assets.codepen.io/23274/mystery-pack.jpg");
+        width: 600px;
+    }
+}
+
+.call-out {
+    text-align: center;
+
+    h2 {
+        line-height: 1;
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    &.white {
+        h2 {
+            color: #fff;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+}
+
+.cta {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    width: 200px;
+    margin-left: -100px;
+
+    &.white {
+        .button {
+            width: 250px;
+            color: #000;
+            background: #fff;
+        }
+    }
+
+    .button {
+        padding: .75rem 1.5rem;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 0;
+        border: none;
+        background: #000;
+    }
+}

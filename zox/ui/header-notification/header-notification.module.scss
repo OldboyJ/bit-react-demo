@@ -1,0 +1,33 @@
+.header-notification {
+    position: relative;
+    display: flex;
+    color: #000;
+    height: 40px;
+    align-items: center;
+    background: rgba(54, 229, 209, 1);
+
+    a,
+    span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 40px;
+        text-transform: uppercase;
+    }
+
+    span {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    a {
+        color: #000;
+        text-decoration: underline;
+    }
+
+    .close {
+        position: absolute;
+        right: 10px;
+        font-size: 12px;
+    }
+}

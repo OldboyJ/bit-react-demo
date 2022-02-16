@@ -1,0 +1,32 @@
+---
+description: 'A ProductList component.'
+labels: ['Zox', 'Component', 'Product-Item']
+---
+
+import { ProductItem } from './product-item';
+
+## React Component for Zox website
+
+A multi-item row profiling product image, description, price, and add-to-cart button
+
+### Component usage
+
+To use add component as shown below:
+```js
+<ProductItem />
+```
+
+### Using props to customize content
+
+Modify the specific prop values to see it change live:
+```js live
+
+/* prop values include: 'imgUrl', 'productTitle', 'productPrice'*/
+
+<ProductItem 
+    // example 
+    imgUrl="https://cdn.shopify.com/s/files/1/2031/9599/products/believeinyourselfoutside_6a954d17-a22d-4e7f-94a3-cc7b2bb29df0.jpg?v=1642538960"
+    productTitle="Believe in something"
+    productPrice="29"
+/>
+```

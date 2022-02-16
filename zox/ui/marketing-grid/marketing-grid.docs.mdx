@@ -1,0 +1,28 @@
+---
+description: 'A MarketingGrid component.'
+labels: ['Zox', 'Component', 'Marketing-Grid']
+---
+
+import { MarketingUnit } from './marketing-grid';
+
+## React Component for rendering zox marketing grid
+
+A section displaying zox marketing images, heading, and (optional subheading text)
+
+### Component usage
+```js
+<MarketingUnit />
+```
+
+### Using props to customize the text
+
+Modify the text or color to see it change live:
+```js live
+
+/* :first-child in this example */
+<MarketingUnit  
+    heading="Love a good surprise?"
+    buttonText="Try A Mystery Pack"
+    buttonColor="white"
+/>
+```
